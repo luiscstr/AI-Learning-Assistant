@@ -1,0 +1,65 @@
+# ========================================
+# Advanced AI Learning Assistant
+# Python Dependencies
+# ========================================
+# Python 3.10+ required
+
+# ========================================
+# CORE DEPENDENCIES (Required)
+# ========================================
+
+# OpenAI SDK
+openai>=1.55.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# HTTP requests (for NewsAPI)
+requests>=2.31.0
+
+# Model Context Protocol
+mcp>=1.1.0
+
+# OpenAI Agent SDK
+agents-sdk>=0.2.0
+
+# ========================================
+# ASYNC & NETWORKING (Usually auto-installed)
+# ========================================
+
+# HTTP client (may be installed with mcp/agents-sdk)
+httpx>=0.27.0
+
+# Async I/O
+anyio>=4.0.0
+
+# ========================================
+# TYPE CHECKING (Optional but recommended)
+# ========================================
+
+# Type hints for older Python versions
+typing-extensions>=4.5.0
+
+# ========================================
+# OPTIONAL ENHANCEMENTS
+# ========================================
+
+# For better JSON handling (optional)
+# pydantic>=2.0.0
+
+# For better async performance (optional)
+# uvloop>=0.19.0  # Unix only
+
+# ========================================
+# DEVELOPMENT TOOLS (Optional)
+# ========================================
+
+# Code formatting
+# black>=24.0.0
+
+# Linting
+# pylint>=3.0.0
+# flake8>=7.0.0
+
+# Type checking
+# mypy>=1.8.0
